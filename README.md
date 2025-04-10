@@ -4,7 +4,7 @@ This project is a deep-dive data analysis and visualization of **Sachin Tendulka
 The dataset includes his batting scores, wickets, match conditions, and opposition details across his career.  
 Using Python and libraries like **Pandas, Seaborn, Matplotlib, Plotly**, and tools like **BeautifulSoup** and **Requests**, this project aims to extract insights from raw cricket data and present them visually.
 
-![](Sachin_Tendulkar.jpg)
+![](Images/Sachin_Tendulkar.jpg)
 
 ---
 
@@ -18,7 +18,7 @@ Shows the frequency of toss outcomes.
 - Visualizes how often India won or lost the toss when Sachin played.
 - Useful to correlate toss wins with match outcomes later.
 
-![](Toss_Results.png)
+![](Images/Toss_Results.png)
 
 ---
 
