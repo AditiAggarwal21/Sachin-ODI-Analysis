@@ -14,12 +14,12 @@ Using Python and libraries like **Pandas, Seaborn, Matplotlib, Plotly**, and too
 
 Shows the frequency of toss outcomes.
 
+![](Images/Toss_Results.png)
+
+
 **Insights**:
 - Visualizes how often India won or lost the toss when Sachin played.
 - Useful to correlate toss wins with match outcomes later.
-
-![](Images/Toss_Results.png)
-
 ---
 
 ### 2. Wickets vs Opposition (Box Plot)
