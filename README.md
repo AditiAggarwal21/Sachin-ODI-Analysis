@@ -101,24 +101,84 @@ Horizontal bar chart displaying the stadiums where Sachin Tendulkar played the m
 - Given the close numbers, it implies that the **match result or performance wasn’t heavily dependent on toss advantage**.
 - The data reflects a large sample size, emphasizing Sachin’s long tenure and participation in a wide variety of match conditions.
 
+### Toss Outcome Breakdown
 
+**Pie chart** displaying the percentage of matches where the toss was won or lost.
+
+![](Images/Toss_Results(1).png)
+
+**Insights**:
+- The chart shows a nearly **even split between won and lost tosses**, emphasizing that Sachin Tendulkar's matches weren’t significantly biased toward one outcome.
+- This balance suggests that **external factors like toss outcomes did not dominate match opportunities** or performance settings.
+- It highlights the **consistency and adaptability** of Sachin across different match situations, regardless of the toss result.
+
+### Yearly Performance of Sachin Tendulkar
+
+**Line chart** illustrating the total runs scored by Sachin Tendulkar each year during his international career.
+
+![](Images/Yearly_runs_scored_by_Sachin.png)
+
+**Insights**:
+- The chart highlights **1998** as Sachin's **most prolific year**, with a remarkable peak in total runs scored—reflecting a phase of unmatched form and dominance.
+- There are noticeable **spikes in 1996, 1998, and 2007**, indicating comeback years or periods of exceptional performance.
+- A **gradual decline after 2002** is evident, signaling the effects of injuries, evolving team roles, and the natural progression of a long career.
+- Despite fluctuations, the graph underscores **Sachin's long-term consistency**, with significant contributions spread over more than two decades.
+
+### Batting Score vs Match Result
+
+**Box plot** showing Sachin Tendulkar's distribution of batting scores across different match outcomes: won, lost, tied, and no result (n/r).
+
+![](Images/Batting_Score_VS_Match_Result.png)
+
+**Insights**:
+- **Winning matches** tend to have **higher median and upper-range scores**, showing that Sachin’s strong batting performances often contributed to India’s victories.
+- Even in **lost matches**, there are several **high outliers** (notably above 150), highlighting Sachin’s efforts despite unfavorable results.
+- Matches that were **tied or had no result** generally show **lower medians**, but a few outstanding performances still appear as outliers.
+- Overall, the plot emphasizes that **Sachin’s top innings had a greater impact in winning scenarios**, but he was a consistent performer regardless of the final match result.
+
+### Wickets Taken vs Opposition
+
+**Dot and bar plot** showcasing the number of wickets Sachin Tendulkar took against various international teams.
+
+![](Images/Wickets_VS_Opposiition.png)
+
+**Insights**:
+- Sachin wasn’t just a batting legend—this chart reminds us of his **occasional yet impactful bowling performances**.
+- He took the **highest number of wickets against Australia and South Africa**, with several matches showing 3+ wickets, proving effective even against top-tier teams.
+- He had notable bowling success against **Bangladesh, Pakistan, and West Indies** too, with several instances of 2 or more wickets.
+- Though he bowled less frequently against teams like **England, Namibia, and Bermuda**, he still managed to contribute.
+- Overall, the visualization shows that **Sachin was a valuable part-time bowler**, stepping up when needed, especially in crucial matches.
+
+### Matches by Result and Opposition
+
+This **heatmap** visualizes the number of matches played against different opponents, categorized by the result: *won*, *lost*, *tied*, or *no result*.
+
+![](Images/Matches_by_Result_and_Opposition.png)
+
+**Key Takeaways**:
+
+- **Most matches played**: 🆚 **Australia** with a total of **70 matches** (44 lost, 23 won, 3 no result).
+- **Best win record**: 🆚 **Sri Lanka** – **43 wins**, compared to 31 losses.
+- **Balanced outcomes**: 🆚 **Pakistan** – 36 losses vs 31 wins, a fierce and closely contested rivalry.
+- **Consistent wins**: Against **Zimbabwe (26)**, **West Indies (22)**, and **New Zealand (22)**.
+- **Minimal losses**: No matches lost to **Namibia**, **U.A.E.**, or **Bermuda**, indicating strong dominance.
+- **Tied matches** are rare, with only a handful (vs SL, ZIM, ENG).
+
+🟦 **Darker shades** indicate higher frequency**, giving a quick visual cue to identify performance patterns against each team.
+
+This chart reflects **Sachin's ODI match records** and shows the variation in outcomes depending on the opposition.
 
 ## 📋 Tables
 
 ### 🗂 Match Outcome Table by Opposition
 
-Shows number of matches won, lost, tied or with no result against each opposition.
+Top 3 countires with matches won, lost, tied or with no result against each opposition.
 
 | Opposition | Won | Lost | No Result | Tied |
 |------------|-----|------|-----------|------|
 | Australia  | 20  | 28   | 1         | 0    |
 | Pakistan   | 23  | 26   | 2         | 1    |
 | England    | 15  | 12   | 1         | 0    |
-| ...        | ... | ...  | ...       | ...  |
-
-_📌 This was created using Pandas `pd.crosstab` and `pivot_table`._
-
----
 
 ## 🏁 Conclusion
 
@@ -131,8 +191,3 @@ _📌 This was created using Pandas `pd.crosstab` and `pivot_table`._
   - Comparisons with peers like Dravid, Sehwag, etc.
 
 ---
-
-## 🔖 Notes
-
-- All graphs are saved as `.png` files using the **same name as the graph title**, e.g., `toss_results.png`, `Wickets_vs_Opposition.png`, etc.
-- All code and notebooks are available in the repo.
